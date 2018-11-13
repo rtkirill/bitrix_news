@@ -1,0 +1,268 @@
+body {
+    background-color: #e3eff8;
+    overflow-x: hidden;
+    line-height: normal!important;
+}
+
+.container_custom {
+    width: 980px;
+    padding-top: 70px;
+    padding-bottom: 75px;
+    color: #1a2d64;
+}
+
+.container__title-news-list {
+    font-family: 'Gotham Pro';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.container__title-news-list_underline:after {
+    content: "";
+    display: block;
+    width: 63px;
+    height: 4px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    background-color: #1a2d64;
+}
+
+.container__title-news-list_margin {
+    margin-top: 40px;
+}
+
+.container__preview-picture_custom {
+    width: 100%;
+    height: 193px;
+}
+
+.container__item-date {
+    font-size: 14px;
+    font-family: 'Gotham Pro';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container__item-date_custom {
+    margin-top: 20px;
+}
+
+.container__item-date_margin {
+    margin-top: 30px;
+}
+
+.container__item-title, .container__item-title-link {
+    font-size: 26px;
+    font-family: 'Gotham Pro';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container__item-title_custom {
+    margin-top: 35px;
+}
+
+.container__item-title_margin {
+    margin-top: 20px;
+}
+
+.container__item-title-link {
+    color: #1a2d64;
+}
+
+.container__item-title-link:hover {
+    color: #1a2d64;
+    text-decoration: none;
+}
+
+.container__detail-link {
+    font-size: 16px;
+    font-family: 'Gotham Pro';
+    font-weight: 500;
+    font-style: normal;
+    display: table;
+    text-decoration: none !important;
+}
+
+.container__detail-link_custom {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container__detail-link_detail-custom {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.container__detail-link_blue-bg {
+    color: #fff!important;
+    background-color: #1a2d64;
+    text-align: center;
+    line-height: 44px;
+    height: 44px;
+    width: 148px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.container__detail-link_color {
+    color: #1a2d64!important;
+    padding-top: 5px;
+    border-bottom: 2px solid #1a2d64;
+}
+
+.container__item-text {
+    font-size: 14px;
+    font-family: 'Gotham Pro';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 14pt;
+}
+
+.container__item-text_custom {
+    margin-top: 20px;
+}
+
+.container__item-text_detail-custom {
+    margin-top: 32px;
+}
+
+.container__nav-string_custom {
+    margin-top: 25px;
+}
+
+.container__detail-picture {
+    width: 100%;
+    max-height: 265px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.container__detail-picture_custom {
+    margin-bottom: 50px;
+}
+
+.container__item-author-name {
+    font-family: 'Gotham Pro';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.container__show-counter {
+    font-family: 'Gotham Pro';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.container__show-counter_custom {
+    margin-top: 37px;
+}
+
+.container__share_custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__share_title {
+    font-size: 16px;
+    font-family: 'Gotham Pro';
+    font-weight: 500;
+    font-style: normal;
+    display: inline-block;
+}
+
+.container__share_title_custom {
+    margin-right: 12px;
+}
+
+.container__share-item {
+    height: 34px;
+    width: 32px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #1a2d64;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__share-item_custom {
+    margin-left: 13px;
+}
+
+.container__carousel-item {
+    display: flex!important;
+}
+
+.container__row_slider {
+    position: relative;
+}
+
+/*Rewrite Slick Styles*/
+.slick-slide {
+    height: auto !important;
+}
+
+.slick-slide[data-slick-index="1"] .container__col-4_beetwen,
+.slick-slide[data-slick-index="-2"] .container__col-4_beetwen,
+.slick-slide[data-slick-index="7"] .container__col-4_beetwen,
+.slick-slide[data-slick-index="4"] .container__col-4_beetwen
+{
+    padding: 0 15px;
+}
+
+.slick-slide[data-slick-index="0"] .container__col-4_beetwen,
+.slick-slide[data-slick-index="-3"] .container__col-4_beetwen,
+.slick-slide[data-slick-index="6"] .container__col-4_beetwen,
+.slick-slide[data-slick-index="3"] .container__col-4_beetwen
+{
+    padding-right: 15px;
+}
+
+.slick-slide[data-slick-index="2"] .container__col-4_beetwen,
+.slick-slide[data-slick-index="-1"] .container__col-4_beetwen,
+.slick-slide[data-slick-index="8"] .container__col-4_beetwen,
+.slick-slide[data-slick-index="5"] .container__col-4_beetwen
+{
+    padding-left: 15px;
+}
+
+.slick-prev:before, .slick-next:before {
+    display: none!important;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 80px;
+    height: 32px;
+    width: 15px;
+    display: block;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none!important;
+    background: transparent;
+    z-index: 100;
+}
+
+.slick-prev {
+    background: url("../img/left-arrow.png") center no-repeat;
+    left: 0;
+}
+
+.slick-next {
+    background: url("../img/right-arrow.png") center no-repeat;
+    right: 0;
+}
+/* ////END\\\\ Rewrite Slick Styles*/
